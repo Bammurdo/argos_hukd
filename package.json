@@ -1,0 +1,28 @@
+{
+  "name": "argos_hotukdeals_api",
+  "version": "1.0.0",
+  "description": "Job app / secret agent api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bammurdo/argos_hukd.git"
+  },
+  "keywords": [
+    "argos",
+    "apis",
+    "hotukdeals",
+    "hukd"
+  ],
+  "author": "Brandon Murdoch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bammurdo/argos_hukd/issues"
+  },
+  "homepage": "https://github.com/Bammurdo/argos_hukd#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

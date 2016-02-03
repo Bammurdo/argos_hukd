@@ -11,7 +11,7 @@ var http = require( "http");
 var api_host = "api.hotukdeals.com";
 var api_port = "80";
 var api_path = "/rest_api/v2/";
-var api_path_options = "?key=120e5aac30f8e92a6b33d858fdbdeb66&results_per_page=10&page=1&output=json";
+var api_path_options = "?key=120e5aac30f8e92a6b33d858fdbdeb66&merchant=argos&results_per_page=10&page=1&output=json";
 
 var options = {
   host: api_host,
@@ -33,7 +33,9 @@ callback = function(res) {
     var resJSON = JSON.parse(str);
     // for each item: Get the title of the item, and display it:
     for (var i=0;i<10;i++)
-      console.log(resJSON.deals.items[i].title);
+      console.log("deal " + (i+1) + "\t" + resJSON.deals.items[i].title);
+
+    // all the details are in the JSONobj, so I can grab any piece of info, as needed
   });
 }
 

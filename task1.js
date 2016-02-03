@@ -1,4 +1,10 @@
 // Simple http request in node
+// Intructions if you check out this point:
+
+// open cmd
+// cd to project
+// node task1
+// example output: screenshots/SS1
 
 var http = require( "http");
 

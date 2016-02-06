@@ -1,4 +1,4 @@
-## Brandon Murdoch, Argos job app  
+## Brandon Murdoch | Argos job app  
 Hello there Argos agent, here is my submission for your task.  
 
 ### Remind me... What is the task?  
